@@ -1,0 +1,29 @@
+{
+  "name": "refineddigital/refined-cms-page-gallery",
+  "description": "Adds multiple gallery images option to Pages Module",
+  "require": {
+    "php": "^7.1.3",
+    "refineddigital/cms": "~1.0|dev-master"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthias Law",
+      "email": "matthias@refineddigital.co.nz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RefinedDigital\\PageGallery\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RefinedDigital\\PageGallery\\Module\\Providers\\PageGalleryServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}

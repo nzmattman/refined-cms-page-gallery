@@ -1,5 +1,5 @@
 {
-  "name": "refineddigital/refined-cms-page-gallery",
+  "name": "refineddigital/cms-page-gallery",
   "description": "Adds multiple gallery images option to Pages Module",
   "require": {
     "php": "^7.1.3",
